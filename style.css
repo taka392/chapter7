@@ -1,0 +1,72 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+}
+
+header .heading {
+  /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 32px;
+  background-image: url(/img/mv.jpg);
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-box {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom-style: solid;
+
+}
+
+.section1 {
+  display: inline-block;
+  justify-content: column;
+  width: 840px;
+  
+
+}
+
+.section-text {
+  border-bottom-style: solid;
+}
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
